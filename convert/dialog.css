@@ -1,0 +1,30 @@
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: #111;
+    background-color: beige;
+}
+
+p, label {
+    font-size: 20px;
+}
+
+.button {
+    width: 5em;
+    position: absolute;
+    bottom: 1em;
+}
+
+#buttonOK {
+    right: 7em;
+}
+
+#buttonCancel {
+    right: 1em;
+}
+
+.selectbox {
+    width: 300px;
+}
+

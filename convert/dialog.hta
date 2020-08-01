@@ -1,0 +1,30 @@
+<html>
+<title>Convert files</title>
+
+<head>
+    <HTA:APPLICATION ID=oHTA SINGLEINSTANCE="yes" SCROLL="no" ICON="convert.ico"/>
+    <link rel="stylesheet" type="text/css" href="dialog.css">
+</head>
+
+<script language="vbscript" src="dialog.vbs"></script>
+
+<body onkeypress="keyPress()">
+    <div>
+        <p id=selecttitle></p>
+        <div id="selectbox"></div>
+        </select>
+    </div>
+    <!-- <p>strPathFileSources: <span id="test">0</span></p> -->
+    <br>
+    <input class="checkbox" type="checkbox" id="recursive" name="recursive" value="Size" 
+        onclick="addSelectedFiles()">
+    <label for="recursive">Include (sub)folders</label><br><br>
+    <hr>
+    <p><span id="progress"></span></p>
+    <p><span id="currentfile"></span></p>
+    <p align=right>
+        <input class="button" type="button" id="buttonOK" value="OK" onclick="Send2()">
+        <input class="button" type="button" id="buttonCancel" value="Cancel" onclick="self.Close()">
+    </p>
+</body>
+</html>
