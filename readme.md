@@ -8,14 +8,14 @@ The tools are based on vb-script files that can easily be adjusted or extended. 
 
 ### FileFit Convert
 
-Convert music files 
-    to and from wav, mp3, flac, ape, ogg
+Convert music files
+- to and from wav, mp3, flac, ape, ogg
 Convert image files 
-    from bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp 
-    to jpg, png, bmp, tif, webp or ico
+- from bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp 
+- to jpg, png, bmp, tif, webp or ico
 Convert document files (with pandoc installed)
-    from md, html, epub, txt, tex, xml 
-    to md, html, epub, pdf, docx, odt, xml or wiki
+- from md, html, epub, txt, tex, xml 
+- to md, html, epub, pdf, docx, odt, xml or wiki
 
 ### FileFit SDelete
 
