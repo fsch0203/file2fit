@@ -34,7 +34,7 @@ Sub window_onload 'will be called when the application loads
         Call addSelectedFiles()
     Else
         selecttitle.innerhtml = "Category of files to convert is unknown. Please select category."
-        selectbox.innerhtml = "<select class='selectbox' id=fileformat title='Select category of files to convert' name='sb-tooltip'>" &_ 
+        selectbox.innerhtml = "<select size='3' class='selectbox' id=fileformat title='Select category of files to convert' name='sb-tooltip'>" &_ 
             "<option value='music'>music</option>" & _
             "<option value='image'>images</option>" &_
             "<option value='doc'>documents</option>" &_
@@ -79,7 +79,7 @@ Sub Init()
     Set oFile = fso.GetFile(Self.location.pathname) 'get filename of this hta
     spScript = fso.GetParentFolderName(oFile) 'get hta-folder (is main folder)
 
-    Window.ResizeTo 600, 470
+    Window.ResizeTo 600, 620
     posX = CInt((window.screen.width - document.body.offsetWidth) / 2)
     posY = CInt((window.screen.height - document.body.offsetHeight) / 2)
     If posX < 0 Then posX = 0
@@ -140,7 +140,7 @@ End Function
 Function setSelectBox()
     If sCategory = "music" Then 
         selecttitle.innerhtml = "Convert music file from wav, flac, mp3, ogg or to new format:"
-        selectbox.innerhtml = "<select class='selectbox' id=fileformat title='Select new music format' name='sb-tooltip'>" &_ 
+        selectbox.innerhtml = "<select size='5' class='selectbox' id=fileformat title='Select new music format' name='sb-tooltip'>" &_ 
             "<option value='mp3'>mp3</option>" & _
             "<option value='wav'>wav</option>" &_
             "<option value='flac'>flac</option>" &_
@@ -149,7 +149,7 @@ Function setSelectBox()
             "</select>"
     Elseif sCategory = "image" Then
         selecttitle.innerhtml = "Convert image file from bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf or webp to new format:"
-        selectbox.innerhtml = "<select class='selectbox' id=fileformat title='Select new image format' name='sb-tooltip'>" &_ 
+        selectbox.innerhtml = "<select size='6' class='selectbox' id=fileformat title='Select new image format' name='sb-tooltip'>" &_ 
             "<option value='jpg'>jpg</option>" & _
             "<option value='png'>png</option>" &_
             "<option value='webp'>webp</option>" &_
@@ -159,7 +159,7 @@ Function setSelectBox()
             "</select>"
     ElseIf sCategory = "doc" Then
         selecttitle.innerhtml = "Convert document file from md, html, epub, txt, tex or xml to new format:"
-        selectbox.innerhtml = "<select class='selectbox' id=fileformat title='Select new doc-format' name='sb-tooltip'>" &_ 
+        selectbox.innerhtml = "<select size='8' class='selectbox' id=fileformat title='Select new doc-format' name='sb-tooltip'>" &_ 
             "<option value='md'>md</option>" & _
             "<option value='html'>html</option>" &_
             "<option value='epub'>epub</option>" &_

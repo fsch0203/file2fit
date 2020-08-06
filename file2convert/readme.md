@@ -1,19 +1,21 @@
 # File2convert
 
 Converts one or more files into a different format. The files can be from 3 different categories:
-- Image files: bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp
-- Music files: wav, mp3, flac, ape, ogg
-- Document files: md, html, epub, txt, tex, xml (if pandoc is installed)
+
+* Image files: bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp
+* Music files: wav, mp3, flac, ape, ogg
+* Document files: md, html, epub, txt, tex, xml (if pandoc is installed)
 
 
 The utility is based on 
-- cwebp/dwebp: https://developers.google.com/speed/webp/docs/cwebp
-- irfanview: https://www.irfanview.com/
-- flac: https://xiph.org/flac/index.html
-- ogg: https://rarewares.org/ogg-oggenc.php
-- lame: https://lame.sourceforge.io/
-- ape: https://www.monkeysaudio.com/index.html
-- pandoc: https://pandoc.org/
+
+* cwebp/dwebp: https://developers.google.com/speed/webp/docs/cwebp
+* irfanview: https://www.irfanview.com/
+* flac: https://xiph.org/flac/index.html
+* ogg: https://rarewares.org/ogg-oggenc.php
+* lame: https://lame.sourceforge.io/
+* ape: https://www.monkeysaudio.com/index.html
+* pandoc: https://pandoc.org/
 
 
 ## Install instructions
