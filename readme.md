@@ -37,8 +37,7 @@ Zip files and folders to an AES-encrypted zip-file
 
 ### Pdf2pdf
 
-Split pdf-file (one file for every page)
-Join pdf-files to one pdf-file
+Split pdf-file (one file for every page) or join pdf-files to one pdf-file
 
 
 ## Change log
