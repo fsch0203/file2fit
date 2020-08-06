@@ -15,6 +15,8 @@ PDFtk Free is our friendly graphical tool for quickly merging and splitting PDF 
     - for tooltip fill in the text: Split pdf-file or join pdf-files
     - see screenshot
 
+![screenshot](screenshot.jpg)
+
 ## Usage
 * If you select one pdf-file the program will split it in a pdf-file for every page.
 * If you select more than one pdf-file the program will join the files to one pdf-file in the order as listed in TC.

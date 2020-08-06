@@ -14,3 +14,5 @@ https://www.7-zip.org/
     - for icon file: fill in the path to the file2lock.ico file
     - for tooltip fill in the text: Zip files and folders to an AES-encrypted zip-file
     - see screenshot
+
+![screenshot](screenshot.jpg)

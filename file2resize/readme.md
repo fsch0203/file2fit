@@ -12,3 +12,6 @@ https://www.irfanview.com/
     - for icon file: fill in the path to the file2resize.ico file
     - for tooltip fill in the text: Resize image(s)
     - see screenshot
+
+![screenshot](screenshot.jpg)
+

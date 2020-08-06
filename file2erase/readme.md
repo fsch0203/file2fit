@@ -17,6 +17,8 @@ The only way to ensure that deleted files, as well as files that you encrypt wit
     - for tooltip fill in the text: Secure delete file(s)
     - see screenshot
 
+![screenshot](screenshot.jpg)
+
 ## Usage
 
 * Use with care: erased files and folders cannot be recovered!

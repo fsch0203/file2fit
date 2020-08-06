@@ -1,9 +1,9 @@
 # File2convert
 
 Converts one or more files into a different format. The files can be from 3 different categories:
-- Image files = bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp
-- Music files = wav, mp3, flac, ape, ogg
-- Document files = md, html, epub, txt, tex, xml (if pandoc is installed)
+- Image files: bmp, gif, ico, jpg, jpeg, png, psd, psp, tga, tif, tiff, wmf, webp
+- Music files: wav, mp3, flac, ape, ogg
+- Document files: md, html, epub, txt, tex, xml (if pandoc is installed)
 
 
 The utility is based on 
@@ -27,9 +27,11 @@ The utility is based on
     - see screenshot
 * Install pandoc from https://pandoc.org/ if you want to enable the conversion of document files
 
+
+![screenshot](screenshot.jpg)
+
 ## Usage
 
-* Select one or more files or folder
+* Select one or more files or folders
 * If the program recognizes the files, it will ask you the format to convert it in.
 * If the category of files is not clear the program will ask you.
-* Make sure you install pandoc from https://pandoc.org/. Without it the document conversion won't work. 

@@ -18,3 +18,5 @@ MySecret.exe is small - 150 kB - and quick. It uses the Blowfish algorithm to cr
     - for icon file: fill in the path to the file2secret.ico file
     - for tooltip fill in the text: Encrypt or decrypt with mysecret
     - see screenshot
+
+![screenshot](screenshot.jpg)
