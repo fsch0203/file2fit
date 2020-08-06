@@ -1,0 +1,2 @@
+d:\Downloads\1\f\change file-name from exif to yyyymmdd-hhmmss.bat
+d:\Downloads\1\f\change file-date from exif to all files.bat
