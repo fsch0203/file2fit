@@ -1,12 +1,12 @@
-# FileFit TotalCommander Tools
+# File2fit TotalCommander Tools
 
-FileFit is a small collection of TotalCommander tools to manipulate files. The development of these tools is inspired by [FileBlender](https://sector-seven.com/software/fileblender), a standalone command line wrapper to convert, join and split files and a lot more.
+File2fit is a small collection of TotalCommander tools to manipulate files. The development of these tools is inspired by [FileBlender](https://sector-seven.com/software/fileblender), a standalone command line wrapper to convert, join and split files and a lot more.
 
 The tools are based on vb-script files that can easily be adjusted or extended. Every tool can be integrated in TotalCommander with an entry in the Button Bar or Start Menu. 
 
 ## Features
 
-### FileFit Convert
+### File2convert
 
 Convert music files
 - to and from wav, mp3, flac, ape, ogg
@@ -19,19 +19,23 @@ Convert document files (with pandoc installed)
 - from md, html, epub, txt, tex, xml 
 - to md, html, epub, pdf, docx, odt, xml or wiki
 
-### FileFit SDelete
+### File2erase
 
 Secure delete files and folders
 
-### FileFit Resize
+### File2resize
 
 Resize image files
 
-### FileFit MySecret
+### File2secret
 
-Encrypts or decrypts files based on the Blowfish algorithm. The encrypted files have a base64-encoded text format.
+Encrypts or decrypts files based on the Blowfish algorithm. Each encrypted file has a base64-encoded text format.
 
-### FileFit Pdftk
+### File2lock
+
+Zip files and folders to an AES-encrypted zip-file
+
+### Pdf2pdf
 
 Split pdf-file (one file for every page)
 Join pdf-files to one pdf-file
